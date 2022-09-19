@@ -22,3 +22,24 @@ document.body.appendChild('button');
 
 
 // title.document -----> will chande the title of the document
+
+
+let todo5="reading the books";
+let todo6="writing the essay.";
+let todo7="making the project.";
+function call(print)
+{
+    let element=document.createElement('div');
+    element.innerText=print;
+    Document.body.appendChild(element);
+
+}
+function call(todo7);
+//forEach function:
+let names=["Anjali","geeta","Bhanu"];
+names.forEach(function(para)
+{
+    let element=document.createElement('div');
+    element.innerText=print;
+    Document.body.appendChild(element);
+});
