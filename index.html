@@ -1,0 +1,26 @@
+<input lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to-do list</title>
+</head>
+
+    <input id="todo-title" type="text">
+    <button onclick="addTodo()">click me</button>
+    <script>
+        let todo=["anjali","amrita","tanya",];
+        todo.forEach(function(todoTitle)
+        {
+let element=document.createElement('div');
+element.innerText=todoTitle;
+document.body.appendChild(element);
+
+        });
+        function addTodo()
+        {
+            todo.push("Rishita");
+        }
+    </script>
+</body>
+</html>
